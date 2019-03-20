@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ogF-io-Zsy">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--AFS Typography-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="iOS_Typography_Base_Class" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="bsN-bC-kPT">
+                                <rect key="frame" x="40" y="104" width="295" height="272"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1rg-JX-6ze" customClass="AFSH1Label" customModule="iOS_Typography_Base_Class" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="295" height="36"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CAE-gk-KaH" customClass="AFSH2Label" customModule="iOS_Typography_Base_Class" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="44" width="295" height="33.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AQz-J6-YHs" customClass="AFSH3Label" customModule="iOS_Typography_Base_Class" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="85.5" width="295" height="29"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1bY-9L-2ac" customClass="AFSTitle1Label" customModule="iOS_Typography_Base_Class" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="122.5" width="295" height="25.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zoq-n6-QDS" customClass="AFSTitle2Label" customModule="iOS_Typography_Base_Class" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="156" width="295" height="21.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zJf-Yn-AX6" customClass="AFSTitle3Label" customModule="iOS_Typography_Base_Class" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="185.5" width="295" height="18"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jBc-44-Aeb" customClass="AFSSubtitleLabel" customModule="iOS_Typography_Base_Class" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="211.5" width="295" height="17"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="238-PA-6Za" customClass="AFSBodyLabel" customModule="iOS_Typography_Base_Class" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="236.5" width="295" height="14.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vmi-HP-BDY" customClass="AFSCaptionLabel" customModule="iOS_Typography_Base_Class" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="259" width="295" height="13"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="Vmi-HP-BDY" secondAttribute="trailing" id="2Lr-Bz-Hc9"/>
+                                    <constraint firstAttribute="trailing" secondItem="CAE-gk-KaH" secondAttribute="trailing" id="3Qs-gv-HKZ"/>
+                                    <constraint firstAttribute="trailing" secondItem="1bY-9L-2ac" secondAttribute="trailing" id="9eL-ke-wly"/>
+                                    <constraint firstAttribute="trailing" secondItem="zoq-n6-QDS" secondAttribute="trailing" id="EU1-K4-yt5"/>
+                                    <constraint firstAttribute="trailing" secondItem="238-PA-6Za" secondAttribute="trailing" id="L5g-zs-ckq"/>
+                                    <constraint firstAttribute="trailing" secondItem="jBc-44-Aeb" secondAttribute="trailing" id="NoB-8z-bNF"/>
+                                    <constraint firstAttribute="trailing" secondItem="AQz-J6-YHs" secondAttribute="trailing" id="cR1-mc-VQe"/>
+                                    <constraint firstAttribute="trailing" secondItem="1rg-JX-6ze" secondAttribute="trailing" id="lqw-s8-Gog"/>
+                                    <constraint firstAttribute="trailing" secondItem="zJf-Yn-AX6" secondAttribute="trailing" id="rX2-7U-U3H"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bsN-bC-kPT" secondAttribute="trailing" constant="40" id="7h6-tO-Nti"/>
+                            <constraint firstItem="bsN-bC-kPT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="Qf1-ac-rWM"/>
+                            <constraint firstItem="bsN-bC-kPT" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="pgm-9W-Bhu"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="AFS Typography" id="YDY-Kr-GTT"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1832.8" y="133.5832083958021"/>
+        </scene>
+        <!--iOS Human Interface Guidelines-->
+        <scene sceneID="oZG-WL-Elm">
+            <objects>
+                <viewController id="x6B-ae-AeQ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="RxR-MU-u8B">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="nG4-4h-1Dz">
+                                <rect key="frame" x="40" y="104" width="295" height="318"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GmX-mD-Rvc" customClass="LargeTitleLabel" customModule="iOS_Typography_Base_Class" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="295" height="36"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p2e-9X-CEw" customClass="Title1Label" customModule="iOS_Typography_Base_Class" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="44" width="295" height="31.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dug-X0-naO" customClass="Title2Label" customModule="iOS_Typography_Base_Class" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="83.5" width="295" height="24"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cuo-WN-WxK" customClass="Title3Label" customModule="iOS_Typography_Base_Class" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="115.5" width="295" height="24"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a7J-jU-ayA" customClass="HeadlineLabel" customModule="iOS_Typography_Base_Class" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="147.5" width="295" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ebh-Hb-rbQ" customClass="BodyLabel" customModule="iOS_Typography_Base_Class" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="176" width="295" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rEu-8J-CCk" customClass="CalloutLabel" customModule="iOS_Typography_Base_Class" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="204.5" width="295" height="19.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hCr-th-48z" customClass="SubheadlineLabel" customModule="iOS_Typography_Base_Class" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="232" width="295" height="18"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="16l-rV-0t2" customClass="FootnoteLabel" customModule="iOS_Typography_Base_Class" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="258" width="295" height="16"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rQA-NT-krr" customClass="Caption1Label" customModule="iOS_Typography_Base_Class" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="282" width="295" height="14.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v2f-mI-Uwd" customClass="Caption2Label" customModule="iOS_Typography_Base_Class" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="304.5" width="295" height="13.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="a7J-jU-ayA" secondAttribute="trailing" id="9Bh-8s-sWv"/>
+                                    <constraint firstAttribute="trailing" secondItem="rEu-8J-CCk" secondAttribute="trailing" id="9t1-RN-fQ2"/>
+                                    <constraint firstAttribute="trailing" secondItem="v2f-mI-Uwd" secondAttribute="trailing" id="AbE-AZ-7dG"/>
+                                    <constraint firstAttribute="trailing" secondItem="Ebh-Hb-rbQ" secondAttribute="trailing" id="KuS-OO-rje"/>
+                                    <constraint firstAttribute="trailing" secondItem="hCr-th-48z" secondAttribute="trailing" id="Nme-ui-Xf6"/>
+                                    <constraint firstAttribute="trailing" secondItem="rQA-NT-krr" secondAttribute="trailing" id="X8f-CN-d1T"/>
+                                    <constraint firstAttribute="trailing" secondItem="dug-X0-naO" secondAttribute="trailing" id="bOL-6g-XIP"/>
+                                    <constraint firstAttribute="trailing" secondItem="16l-rV-0t2" secondAttribute="trailing" id="dWl-4k-uAL"/>
+                                    <constraint firstAttribute="trailing" secondItem="GmX-mD-Rvc" secondAttribute="trailing" id="iIm-JW-a4O"/>
+                                    <constraint firstAttribute="trailing" secondItem="p2e-9X-CEw" secondAttribute="trailing" id="k9V-oc-6iW"/>
+                                    <constraint firstAttribute="trailing" secondItem="cuo-WN-WxK" secondAttribute="trailing" id="oMY-db-BCv"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="nG4-4h-1Dz" firstAttribute="leading" secondItem="3dP-L5-cZF" secondAttribute="leading" constant="40" id="JD9-1E-t8b"/>
+                            <constraint firstItem="nG4-4h-1Dz" firstAttribute="top" secondItem="3dP-L5-cZF" secondAttribute="top" constant="40" id="dXh-ja-KhG"/>
+                            <constraint firstItem="3dP-L5-cZF" firstAttribute="trailing" secondItem="nG4-4h-1Dz" secondAttribute="trailing" constant="40" id="rgC-63-Kyf"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="3dP-L5-cZF"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="iOS Human Interface Guidelines" id="ZxA-nb-k0H"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NzN-AX-ec1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1832.8" y="810.94452773613204"/>
+        </scene>
+        <!--Home View Controller-->
+        <scene sceneID="kvL-6l-SeS">
+            <objects>
+                <tableViewController id="OpQ-fd-h0w" customClass="HomeViewController" customModule="iOS_Typography_Base_Class" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="Aqy-bK-Yaf">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" id="zkt-fK-7j9">
+                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="zkt-fK-7j9" id="9Nz-R0-huv">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="OpQ-fd-h0w" id="uvz-Gd-90f"/>
+                            <outlet property="delegate" destination="OpQ-fd-h0w" id="yC9-26-9Vu"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="O0b-zi-kM6"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="show" identifier="segue_afs" id="0xC-pq-dQM"/>
+                        <segue destination="x6B-ae-AeQ" kind="show" identifier="segue_apple" id="7CJ-Og-Anm"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HVU-lE-gyi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="678" y="457"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="wXT-Tl-plV">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ogF-io-Zsy" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Wnt-7V-80S">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="OpQ-fd-h0w" kind="relationship" relationship="rootViewController" id="M72-b5-r7w"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LyY-yR-jRp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-271.19999999999999" y="456.52173913043481"/>
+        </scene>
+    </scenes>
+</document>
